@@ -1,0 +1,7 @@
+Two pointer algorithm:
+Where can we use it?
+When given array is sorted we can use 2-pointer algorithm. 											We can use binary search and 2-pointer algorithm in a sorted array only
+It is used to make codes efficient. time-space complexity
+
+How to do it???
+In a sorted array, with two variable indexing pointers perform desired operations until required condition is met. 

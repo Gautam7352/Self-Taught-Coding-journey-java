@@ -1,0 +1,14 @@
+Encapsulation: 
+-> Keep related code and fields together. 
+-> It makes code accessible to rest of the code in restricted form.
+-> It also makes code neater.
+-> We can control how our variables are used
+-> It helps to decouple components of a system. These decoupled components can be developed, tested and debugged independently and concurrently. 
+And, any changes in a particular component do not have any effect on other components.
+
+How to achieve encapsulation?
+1. Declare the variables of a class as private
+Provide public setter and getter methods that will be used to write and read these variables values.
+
+Data hiding vs Encapsulation
+They both are different things, Encapsulation is the desire to keep same things together. Data hiding is just the residual result of it.

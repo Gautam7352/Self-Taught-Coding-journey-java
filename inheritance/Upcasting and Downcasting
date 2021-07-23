@@ -1,0 +1,12 @@
+Upcasting and Downcasting in inheritance:
+
+Suppose Animal class is a parent class and Cat is a child class
+
+Upcasting
+cat c = new Cat();
+Animal a = c; //Upcasting, it's fine since Cat is also an Animal
+
+Downcasting
+Cat c = new Cat();
+Animal a = c;
+Cat c1 = (Cat) a; //explicit casting, works fine because "c" is actually of type cat

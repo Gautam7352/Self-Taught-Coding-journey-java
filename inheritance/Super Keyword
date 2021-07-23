@@ -1,0 +1,15 @@
+Super keyword
+
+In java Super keyword is used to refer to immediate parent class of a child class.
+
+How to use?
+
+super.ParentClassMethodName();
+
+We can also call constructor of parent class in children class using following method:
+
+public Constructor_name(){
+super();
+
+}
+

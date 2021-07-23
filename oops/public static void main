@@ -1,0 +1,53 @@
+public<1> static<2> void<3> main<4> (String[] args<5>) {}
+
+1> Modifier- It defines the access type of the method and is optional to use.
+2> static: The keyword static indicates that a particular member belongs to a type itself, rather than to an instance of that type. It is mainly used to help memory management. The keyword applies to variables, methods blocks and nested class.
+3> Return type of method
+4> Name of method. The method signature consists of method name and parameter list.
+5> Parameter list: Gives you defining parameters of the method with it's datatype.
+
+** Main section of code is also a method of a public class. 
+		
+Whenever we make something static then it becomes default field for the class i.e. field becomes constant
+		
+		static variables and methods:  If we know that a certain variable or method is going to stay constant then we will make it static
+
+		Top level class cannot be made static but nested class can be made static or non-static.
+		
+	Why to use static nested class?
+		We make nested class such that nested classes are completely dependent on Top-Level class.
+		
+==> ex:{implementation is done in same package}
+
+		Important note: the commented lines are only for references and should be used onl
+		
+		
+		First we will import nested classes B and C this way:
+
+		import Package.A.B;
+		import Package.A.C;
+		
+		public class A{
+		
+		class B{
+		// We can only create new objects of class B if before that i have created an object of class A.
+		/* It is done this way:
+			
+			A objA = new A();
+			B objB = objA.new B();
+		*/
+		}
+		
+		static class C{
+		/* It is done this way:
+			
+			C objC = new A.C();
+			
+		*/
+		}
+		}
+		
+		
+		
+Static blocks of code:
+Any block of code that made static runs before main class

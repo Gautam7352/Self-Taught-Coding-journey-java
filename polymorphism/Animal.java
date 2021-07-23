@@ -1,0 +1,6 @@
+package polymorphism;
+
+class Animal {
+
+	
+}

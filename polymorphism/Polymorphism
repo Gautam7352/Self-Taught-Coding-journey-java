@@ -1,0 +1,19 @@
+Polymorphism-more than one form:
+Polymorphism: It allows us to perform a single action in different ways. In other words, polymorphism allows you to define one interface and have multiple implementations.
+Two types:
+1. Run time
+	- It is also known as Dynamic binding, Late binding and overriding as well.
+	- Overriding is a run-time polymorphism having same method with same parameters or signature, but associated in a class & its subclass.
+	- Slower execution
+
+2. Compile time
+	- It is also known as Static binding, Early binding and overloading as well
+	- Overloading is compile time polymorphism where more than one methods share the same name with different parameters or signature and different return type.
+	- Faster execution
+
+Animal -> Pet -> Dig
+           |      |
+           V      V
+          Walk   Walk
+          
+    Pet and dog have walk behaviour and are part of Animal class
